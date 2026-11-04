@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff4d7">
+    <meta name="description"
+      content="A little birthday sunshine, made just for Geethu.">
+    <title>Happy Birthday, Geethu!</title>
+    <style>
+    :root{--ink:#542e34;--pink:#ff8fab;--coral:#ff806b;--sun:#ffd166;--cream:#fff8e9;--mint:#b9e6c5;--berry:#a74367}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:ui-rounded,"Trebuchet MS",system-ui,sans-serif;background:#fff8eb;overflow-x:hidden}
+    button,a{font:inherit}button{cursor:pointer}.sunwash{position:fixed;inset:0;z-index:-2;background:radial-gradient(ellipse at 50% 5%,#fff1bb 0,#fff8e8 43%,#ffedf0 100%)}.sprinkles{position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:.3;background-image:radial-gradient(#f3a56c 1.5px,transparent 1.5px),radial-gradient(#e58ba8 1.5px,transparent 1.5px);background-size:46px 46px,63px 63px;background-position:0 0,19px 21px;mask-image:linear-gradient(to bottom,black,transparent 80%)}
+    section{position:relative;min-height:100svh;padding:92px 22px;display:grid;place-items:center;text-align:center;overflow:hidden}.hero{min-height:94svh}.eyebrow{letter-spacing:.16em;text-transform:uppercase;font-size:.76rem;font-weight:900;color:#b56c55}.hero h1{font-size:clamp(3rem,9vw,7.5rem);line-height:.98;letter-spacing:-.06em;margin:16px auto;max-width:980px;color:#743e45;text-wrap:balance}.hero h1 span{color:#f27e83}.lead{font-size:clamp(1.05rem,2vw,1.35rem);max-width:550px;line-height:1.6;margin:18px auto;color:#74575a}.sun{font-size:4rem;display:block;animation:bob 3s ease-in-out infinite;filter:drop-shadow(0 7px 0 #f7d3a1)}
+    .scroll{display:inline-flex;margin-top:25px;padding:13px 22px;border-radius:999px;background:var(--pink);color:#fff;text-decoration:none;font-weight:900;box-shadow:0 6px 0 #db718d;transition:transform .2s}.scroll:hover{transform:translateY(-3px)}.second{min-height:82svh;background:linear-gradient(180deg,transparent,#fff0da99,transparent)}.second h2,.cake-section h2{font-size:clamp(2.4rem,6vw,4.6rem);letter-spacing:-.04em;margin:12px 0}.wish-card{max-width:670px;border:3px solid #fff;background:#fffaf0e8;border-radius:36px;padding:clamp(28px,6vw,58px);box-shadow:0 14px 0 #f4dfc4,0 25px 55px #a85c3220;transform:rotate(-1deg)}.wish-card p{font-size:1.18rem;line-height:1.75}.badge{display:inline-block;background:#c6e8cc;border-radius:999px;padding:9px 15px;font-size:.85rem;font-weight:900}
+    .cake-section{min-height:120svh;padding-bottom:100px;background:linear-gradient(180deg,#fff0dc00,#ffe4ce88 42%,#fff1e4)}.cake-section .sub{max-width:600px;line-height:1.6;color:#79585a;margin-inline:auto}.scene{width:min(900px,100%);min-height:525px;position:relative;display:grid;place-items:center;margin:0 auto}.plate{position:absolute;width:min(540px,76vw);height:75px;bottom:70px;border-radius:50%;background:linear-gradient(#fff,#f5d7cd);border:8px solid #fff;box-shadow:0 14px 0 #e8bdb4,0 27px 35px #7b3b3e20}.cake{z-index:2;position:absolute;bottom:135px;width:min(350px,65vw);height:225px;border:0;background:none;padding:0;filter:drop-shadow(0 13px 7px #733b3726);transition:transform .25s;touch-action:manipulation}.cake:hover{transform:translateY(-6px) scale(1.015)}.cake:focus-visible,.gift:focus-visible{outline:4px solid #dd7690;outline-offset:5px}.tier{position:absolute;left:5%;width:90%;height:92px;border-radius:18px 18px 30px 30px;background:linear-gradient(90deg,#572d27,#804333 18%,#6e372d 58%,#4e2828);box-shadow:inset 0 -12px #482423}.tier.top{top:57px;left:0;width:100%;height:78px;border-radius:50% 50% 21px 21px;background:linear-gradient(90deg,#61372c,#96503b 40%,#64352e)}.icing{position:absolute;left:0;right:0;top:53px;height:34px;border-radius:50%;background:#f4c9b2;box-shadow:inset 0 -7px #e5a98e}.drip{position:absolute;top:67px;width:18px;height:44px;border-radius:0 0 12px 12px;background:#f4c9b2}.d1{left:19%}.d2{left:42%;height:31px}.d3{left:67%;height:48px}.d4{left:84%;height:28px}.sprinkle{position:absolute;top:69px;width:9px;height:4px;border-radius:8px;transform:rotate(25deg);background:#ffdc7e}.s1{left:28%}.s2{left:54%;background:#e9829b}.s3{left:75%;background:#b8e4bd}.candle{position:absolute;z-index:3;bottom:285px;width:13px;height:65px;border-radius:6px 6px 3px 3px;background:repeating-linear-gradient(135deg,#fffcf5 0 8px,#f18aa0 8px 15px);box-shadow:inset -3px 0 #d26981}.c1{left:calc(50% - 58px)}.c2{left:50%;height:78px;bottom:298px}.c3{left:calc(50% + 45px);height:59px}.flame{position:absolute;left:50%;top:-22px;width:17px;height:25px;transform:translateX(-50%);border-radius:60% 40% 55% 45%;background:linear-gradient(#fff9a9,#ff9c43 70%,#f45a43);filter:drop-shadow(0 0 8px #ffad4d);animation:flicker .7s infinite alternate}.blown .flame{display:none}.gifts{position:absolute;inset:30px 0 45px;z-index:4;pointer-events:none}.gift{position:absolute;width:48px;height:42px;border:3px solid #fff8e9;border-radius:9px;background:var(--gift-color,#ef8ca4);box-shadow:0 5px 0 #ce7086;pointer-events:auto;padding:0;transform:translate(-50%,-50%) rotate(var(--r,0deg));touch-action:manipulation}.gift:hover,.gift:focus-visible{z-index:2;filter:brightness(1.08);transform:translate(-50%,-50%) rotate(var(--r,0deg)) scale(1.12)}.gift:before{content:"";position:absolute;inset:0 auto 0 42%;width:8px;background:#ffd166;border-left:1px solid #fff2cb;border-right:1px solid #fff2cb}.gift:after{content:"";position:absolute;left:27%;top:-11px;width:20px;height:10px;border:4px solid #ffd166;border-radius:50% 50% 0 50%;transform:rotate(-12deg)}.instruction{position:absolute;bottom:0;left:0;right:0;color:#79585a;font-size:.95rem;font-weight:800}.blow{display:inline-flex;align-items:center;gap:8px;border:0;border-radius:999px;background:#fff;color:#773e48;padding:13px 20px;font-weight:900;box-shadow:0 5px 0 #ead0b5;margin-top:10px}.blow:hover{transform:translateY(-2px)}.blown-note{min-height:1.6em;color:#b35c71;font-weight:800}.confetti{position:fixed;inset:0;pointer-events:none;z-index:20;overflow:hidden}.confetti i{position:absolute;top:-15px;width:9px;height:14px;border-radius:3px;animation:fall 2.6s linear forwards}
+    dialog{width:min(620px,calc(100% - 30px));max-height:min(85svh,760px);overflow:auto;border:4px solid white;border-radius:32px;padding:0;background:#fff9ee;color:var(--ink);box-shadow:0 24px 90px #4b282a66}dialog::backdrop{background:#45293188;backdrop-filter:blur(5px)}.letter{padding:clamp(25px,6vw,50px);text-align:left}.letter h2{text-align:center;font-size:2.2rem;margin:0 0 20px;color:#9d4c65}.letter p{font-size:1.08rem;line-height:1.85;white-space:pre-wrap}.close{display:block;margin:24px auto 0;border:0;border-radius:999px;background:var(--pink);color:white;padding:12px 23px;font-weight:900}.footer{padding:30px;text-align:center;color:#96797a;font-size:.86rem}
+    @keyframes bob{50%{transform:translateY(-8px) rotate(4deg)}}@keyframes flicker{to{transform:translateX(-50%) rotate(5deg) scale(.9);filter:drop-shadow(0 0 4px #ffad4d)}}@keyframes fall{to{transform:translate(var(--dx),105vh) rotate(720deg);opacity:.2}}
+    @media(max-width:560px){section{padding-inline:18px}.scene{min-height:440px}.cake{bottom:130px;transform:scale(.9)}.cake:hover{transform:translateY(-4px) scale(.92)}.plate{bottom:75px}.candle{bottom:280px;transform:scale(.9);transform-origin:bottom}.c2{bottom:290px}.gift{width:39px;height:35px;border-width:2px}.gift:before{width:7px}.gift:after{width:18px;height:9px;border-width:3px;top:-9px}.second{min-height:90svh}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+  </style>
+  </head>
+  <body>
+    <div class="sunwash" aria-hidden="true"></div><div class="sprinkles"
+      aria-hidden="true"></div>
+    <main>
+      <section class="hero" aria-labelledby="birthday-title"><div><span
+            class="sun" aria-hidden="true">☀️</span><div class="eyebrow">A
+            little sunshine just for you</div><h1 id="birthday-title">Happy
+            Birthday <span>Geethu</span></h1><p class="lead">Today is all about
+            your big smile, your kind heart, and all the lovely little things
+            that make you you.</p><a class="scroll" href="#wishes">Your birthday
+            surprise ↓</a></div></section>
+      <section class="second" id="wishes" aria-labelledby="wish-title"><div
+          class="wish-card"><span class="badge">A pocketful of sunshine
+            ☀️</span><h2 id="wish-title">For your next trip around the
+            sun</h2><p>May this year bring you belly laughs, cozy moments,
+            exciting little adventures, and every bit of happiness you give to
+            the people around you.</p><p>Make a wish, birthday girl. There’s
+            something sweet waiting just below ✨</p><a class="scroll"
+            href="#cake">Find your cake ↓</a></div></section>
+      <section class="cake-section" id="cake"
+        aria-labelledby="cake-title"><div><div class="eyebrow">The sweetest part
+            of the day</div><h2 id="cake-title">A cake made just for you
+            🍫</h2><p class="sub">Chocolate, candles, and tiny surprises around
+            the plate. Tap the cake for your letter, or open a gift to read a
+            friend's message.</p>
+          <div class="scene" id="scene"><div class="gifts" id="gifts"
+              role="group" aria-label="Birthday letters from friends"></div><div
+              class="plate" aria-hidden="true"></div>
+            <span class="candle c1" aria-hidden="true"><i
+                class="flame"></i></span><span class="candle c2"
+              aria-hidden="true"><i class="flame"></i></span><span
+              class="candle c3" aria-hidden="true"><i class="flame"></i></span>
+            <button class="cake" id="cakeButton" type="button"
+              aria-label="Open your birthday letter"><span
+                class="tier"></span><span class="tier top"></span><span
+                class="icing"></span><i class="drip d1"></i><i
+                class="drip d2"></i><i class="drip d3"></i><i
+                class="drip d4"></i><i class="sprinkle s1"></i><i
+                class="sprinkle s2"></i><i class="sprinkle s3"></i></button>
+            <div class="instruction">🕯️ Touch and hold the cake to blow out the
+              candles</div>
+          </div><button class="blow" id="blowButton" type="button">🌬️ Blow out
+            the candles</button><p class="blown-note" id="blownNote"
+            aria-live="polite"></p>
+        </div></section>
+    </main>
+    <footer class="footer">Made with a little extra sunshine, just for Geethu
+      💛</footer>
+    <dialog id="letterDialog" aria-labelledby="mainLetterTitle"><div
+        class="letter"><h2 id="mainLetterTitle">A little letter for you
+          💌</h2><p id="letterText"></p><button class="close" id="closeLetter"
+          type="button">Close with a hug 💛</button></div></dialog>
+    <dialog id="friendDialog" aria-labelledby="friendTitle"><div
+        class="letter"><h2 id="friendTitle">A letter for Geethu 💌</h2><p
+          id="friendMessage"></p><button class="close" id="closeFriend"
+          type="button">Close with a hug 💛</button></div></dialog>
+    <div class="confetti" id="confetti" aria-hidden="true"></div>
+    <script>
+// MAIN LETTER: edit this text while keeping the quote marks/backticks.
+    const MAIN_LETTER = `Happy birthday, my love omg u finally 15 i love so much. I know you are not having the bday you like irl so we all try to give gifts and you are like my little sister so this a little gift for u from us and hope you like it. Enjoy your special day.`;
+
+    // FRIEND LETTERS: change the placeholder names and messages. Each item is one clickable gift.
+    const FRIEND_LETTERS = [
+      {from:"Prakhar",message:"Happiest Birthday GEETHAAA!! 😭❤️ Macha, hope you have the best day ever and get everything you wish for! You're genuinely one of the most entertaining people to talk to, our very own human chatbot lmao. Keep spreading your yap energy and making every conversation interesting, chumma! Also, wishing the neighbourhood graveyard some peace because you're probably keeping everyone awake with your endless chatting. 💀 Never change, Geetha. Stay happy, stay crazy and keep being the amazing person you are. Have a blast, birthday girl! Lots of loveee! ❤️"},
+      {from:"Keon",message:"Happy 15th bday geetha, you’re now 15 years old. A person turns 15 once they’ve lived for 15 years since their birth. And this means 15 years have passed since you were born hence it is your 15th birthday. 5 years ago you were 10 years old and 5 years after that you turn 15. Every year you turn older because one year passes every year so after passing a year 15 times you have therefore turned 15 years old. Happy birthday"},
+      {from:"Simar",message:"HAPPIEST BDAYYYY GEETHAAAA LOVEYOUUU SWEETHEART🩷🎸 MAY YOU SHINE BRIGHTER EACH YEAR🥳 LOVEE FROM SIMAR"},
+      {from:"Utkarsh",message:"OMG GEETA HAPPY 15TH BIRTHDAY!!!! Best wishes to you for the coming year <3 I hope you get good grades in your board exams. And I know at times your irl friends made you feel like shit but you’re more than that their opinion of you and you’re worthy of being surrounded by people who genuinely love your company and love you for who you are. You don’t have to change yourself for anyone cause you’re fine just the way you are. Today you may not have many people irl to celebrate your birthday with but me and others from the gc are always there to help you in whatever way we can. And I hope your life experiences whether good or bad make you into a person you’re proud to be eventually when you grow up. I hope you have a great day ahead!! Love you bbg and make the most of your school years cause sometimes it sucks to realise you’re a grown up and have responsibilities. I hope you stay happy and healthy <3"},
+      {from:"Piko",message:"HAPPY BIRTHDAY MY PRECIOUS BABY GEETHU :33 You are very special to me and i love talking to you so so so much ;3 I love how excited you are for everything and how empathetic you are towards others ;] I absolutely enjoy watching you talk about yourself and little things that go on in your life <3 Remember i’m here for you and rely on me for your problems. Talk about anything you want with me ill always support you my cute little baby ;) Having met you this year was also one of the best thing that happened!!! You are very precious to me Geethu ALWAYS BE HAPPY AND BE YOURSELF YOU LITERALLY ARE THE BEST ;D"},
+      {from:"Soumya",message:"HAPPIESTTTT BIRTHDAYYYY TO THE COOLEST PERSON IK <3333 i hope you realise how much you mean to all of us and how beautiful your existence really is. it's crazy how your energy itself makes my day better, i loveeeee talking to you and especially those tea sessions. PLEASE, more of that. i hope life starts being kinder to you, it may not happen at once but it will one day and you'll find all of this worth it. im really grateful i met you, thank you for being there with me and sharing bits of your life, i hope I can be that same person for you. happyyy birthday once again, may you grow happier. and i hope you get all of the love that you deserve and share to others . AND i pray for you and me for the upcoming boards, hope you find reasons to be excited for life every single day. mwwaahhhhhh<3"},
+      {from:"Nandu",message:"My sweet Geetu By the time you receive this you'll probably already be 15. Woah, that is a huge step in life. The first time I met you was.. I don't even know how long ago now. But what I do know is that you burst into the chat with SO much energy spamming HELLO in all caps like you still do. (huge fan of it, NEVER STOP<3) That pure unfiltered joy instantly uplifted my mood and brought a genuine smile to my face. Watching you grow up (you being the go ka baccha hehe;p) has felt like the privilege of watching a little sibling grow up. You have constantly been a ray of sunshine for us all, brightening our moods even during the dullest times. You my baby deserve all the love and affection this world has to offer and much much more.I want you to know how proud I am of you for being such a loving, caring, joyful, and strong person. The fact that you don't let other people's bad energy get to you always inspires me. (STAY SILLY FOREVER) On your birthday i wish you lots of love, blessings, and peace for your future. No matter where life takes you, every challenge, every celebration, I'll always be right there. You're never alone. :] p.s. I hope you know how much it means to me when you address me as your dad. It brings me so much comfort and joy;3. I love you. To today and years ahead Happiest 15th Geetu<3"},
+      {from:"Subhajit",message:"Hi geethuuu 😋I have no idea where to start from but first of all a big big HAPPY BIRTHDAY 🎂🎈 You're the nicest person I have met online and I am so LUCKY to have a sister like you. I really pray to the all mighty to give you lots of strength , lots of love. I hope you achieve all your dreams and make yourself super proud. Whenever you want to talk i will be there for you dw.💝✨Btw gimme bday cake and bday treat I am really hungry 😋"},
+      {from:"Shreya",message:"happy birthday my angel baby😭 GENUINELY I LOVE YOU SO SO MUCH. idk where i would’ve been without you in my life!! i need to say, in a way you saved my life by being there for me. knowing i could always trust you or i could always depend on you is something so so special to me, and thank you so freaking much for being that special person geethu baby🩷 i LOVE how fast we became bffs and i LOVE our hours and hours of debriefing over the tiniest things 😭 you are and will always be my kutty smol sister forever and i cannot wait to meet you irl😭❤️ happiest 15th birthday once again and i really really hope everything you wish for comes true and may your upcoming years be filled with the fullest of happiness. i love you so so much🩷"},
+      {from:"Rishi",message:"haiii geeethaaa happpyyy birthdayyyy i hope from the bottom of my heart you be v v v v happi and get everything that you want in life. idrk much about you but you'll always be da cute lil kiddo of this gc😝✌️"},
+      {from:"Vrinda didi",message:"HAPPIEST BIRTHDAYYYY GEETHUWUUU!!! I hope you have the loveliest day filled with all your favourite things, lots of laughter and people making you feel extra special!! You're genuinely such a sweet little human and I'm so glad we got to know each other hehe. May you get all the pretty things andexciting experiences ! Keep being your adorable, unhinged self and never let anyone dull that sparkleeee. Also, please remember that you have an elderly lady (me) rooting for you from afar hehe...🤭  LOVE YOUUU, have the bestest day everrrr!!  Sending you hugs and loads of love cutuepie... Vrinda 🥰"},
+      {from:"Anushka",message:"HELLOOOOOOO GEETUU, YOU ARE SUCH A BALL OF SUNSHINE. I LOVE HOW WHIMSICAL YOU AREEEEEE. YOU MAKE EVERYONE'S DAY BETTER BECAUSE OF UR AWESOME ENERGY. PLEASE DONT EVER CHANGE. I LOVE YOU SO MUCH YAYAYAYAAYAYAYAYAYAYAYA"},
+    ];
+
+const cakeButton=document.getElementById('cakeButton');
+    const scene=document.getElementById('scene');
+    const blownNote=document.getElementById('blownNote');
+    const giftColors=['#93cfaa','#fb977a','#f4c955','#9acfe0','#ef8ca4','#b5a1dc'];
+    const friendDialog=document.getElementById('friendDialog');
+
+    FRIEND_LETTERS.forEach((letter,index)=>{
+      const gift=document.createElement('button');
+      const angle=(index/FRIEND_LETTERS.length)*Math.PI*2-Math.PI/2;
+      gift.className='gift';gift.type='button';
+      gift.setAttribute('aria-label',`Open a birthday letter from ${letter.from}`);
+      gift.title=`A letter from ${letter.from}`;
+      gift.style.left=`${50+44*Math.cos(angle)}%`;gift.style.top=`${50+43*Math.sin(angle)}%`;
+      gift.style.setProperty('--gift-color',giftColors[index%giftColors.length]);
+      gift.style.setProperty('--r',`${Math.sin(angle)*12}deg`);
+      gift.addEventListener('click',()=>{
+        document.getElementById('friendTitle').textContent=`A letter from ${letter.from} 💌`;
+        document.getElementById('friendMessage').textContent=letter.message;
+        friendDialog.showModal();
+      });
+      document.getElementById('gifts').append(gift);
+    });
+
+    let blown=false,holding=false,holdTimer=null,ignoreNextCakeClick=false;
+    function celebrate(){
+      const box=document.getElementById('confetti'),colors=['#ff8fab','#ffd166','#9ed8ad','#8fcde0','#b9a7df'];box.replaceChildren();
+      for(let i=0;i<72;i++){const bit=document.createElement('i');bit.style.left=Math.random()*100+'%';bit.style.background=colors[i%colors.length];bit.style.setProperty('--dx',(Math.random()*180-90)+'px');bit.style.animationDelay=Math.random()*.55+'s';box.append(bit)}
+      setTimeout(()=>box.replaceChildren(),3600);
+    }
+    function blow(){if(blown)return;blown=true;scene.classList.add('blown');blownNote.textContent='Wish sent! ✨ May it come true.';celebrate()}
+
+    const mainDialog=document.getElementById('letterDialog');
+    document.getElementById('letterText').textContent=MAIN_LETTER;
+    cakeButton.addEventListener('click',()=>{
+      if(ignoreNextCakeClick){ignoreNextCakeClick=false;return;}
+      mainDialog.showModal();
+    });
+    document.getElementById('closeLetter').addEventListener('click',()=>mainDialog.close());
+    mainDialog.addEventListener('click',event=>{if(event.target===mainDialog)mainDialog.close()});
+    document.getElementById('closeFriend').addEventListener('click',()=>friendDialog.close());
+    friendDialog.addEventListener('click',event=>{if(event.target===friendDialog)friendDialog.close()});
+
+    cakeButton.addEventListener('pointerdown',event=>{
+      if(event.button!==undefined&&event.button!==0)return;
+      holding=true;clearTimeout(holdTimer);holdTimer=setTimeout(()=>{if(holding){ignoreNextCakeClick=true;blow();}},450);
+    });
+    const stopHolding=()=>{holding=false;clearTimeout(holdTimer)};
+    cakeButton.addEventListener('pointerup',stopHolding);cakeButton.addEventListener('pointerleave',stopHolding);cakeButton.addEventListener('pointercancel',stopHolding);
+    document.getElementById('blowButton').addEventListener('click',blow);
+
+</script>
+  </body>
+</html>
